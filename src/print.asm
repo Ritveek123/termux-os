@@ -10,3 +10,4 @@
   wel:
     db 0xA, 0xD, "welcome to termux-os", 0xA, 0xD, "you can type any thing you like", 0xA, 0xD, 0
   end:
+    jmp key
