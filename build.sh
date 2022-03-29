@@ -2,7 +2,8 @@ clear
 mkdir output
 echo "building img file.."
 echo 'installing nasm'
-apt update && apt install nasm
+apt update && apt upgrade
+apt install nasm
 echo "combining all files"
 cd src
 cat print.asm keyboard.asm bootloader.asm > boot.asm
